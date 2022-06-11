@@ -16,7 +16,7 @@ class WelcomeAndAddView: UIViewController,PHPickerViewControllerDelegate{
     @IBOutlet weak var Confirm: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
-        title = "p"
+        title = "Please Pick a Photo And a Video"
         // Do any additional setup after loading the view.
         navigationItem.rightBarButtonItem = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(TapAdd))
     }
@@ -69,8 +69,8 @@ class WelcomeAndAddView: UIViewController,PHPickerViewControllerDelegate{
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let destinationVC = segue.destination as! ARViewController
-        destinationVC.LoadImage = self.image
-        destinationVC.LoadVideoUrl = self.VideoUrl
+        destinationVC.LoadImage = image
+        destinationVC.LoadVideoUrl = VideoUrl
 //        print("it's \(self.image as Optional)\n")
         //                    if VideoUrl == nil{
 //        print("it's \(self.VideoUrl as Optional)\n")

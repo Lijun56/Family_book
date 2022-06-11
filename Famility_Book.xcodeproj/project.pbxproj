@@ -47,6 +47,8 @@
 		BE1DB73D28544DE0002B41B6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BE70A6752852E27B00DFC0E9 /* Main.storyboard */,
+				BE70A67A2852E27B00DFC0E9 /* LaunchScreen.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -58,6 +60,14 @@
 				BE1DB73E28544E50002B41B6 /* WelcomeAndAddView.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		BE1DB74328552636002B41B6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BE1DB74028544EE1002B41B6 /* File.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BE70A6632852E27A00DFC0E9 = {
@@ -85,10 +95,8 @@
 				BE70A6712852E27B00DFC0E9 /* art.scnassets */,
 				BE1DB74228544F68002B41B6 /* Controller */,
 				BE1DB73D28544DE0002B41B6 /* View */,
-				BE1DB74028544EE1002B41B6 /* File.swift */,
-				BE70A6752852E27B00DFC0E9 /* Main.storyboard */,
+				BE1DB74328552636002B41B6 /* Model */,
 				BE70A6782852E27B00DFC0E9 /* Assets.xcassets */,
-				BE70A67A2852E27B00DFC0E9 /* LaunchScreen.storyboard */,
 			);
 			path = Famility_Book;
 			sourceTree = "<group>";

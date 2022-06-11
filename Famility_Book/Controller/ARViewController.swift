@@ -33,9 +33,9 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
 //        delegate!.GetData(Image, videoUrl)
         
         if LoadImage != nil{
-            print("it's a image\n")
+            print("it's a image:\(LoadImage)\n")
             if LoadVideoUrl != nil{
-                print("it's a video\n")
+                print("it's a video:\(LoadVideoUrl)\n")
             }
         }
     }
