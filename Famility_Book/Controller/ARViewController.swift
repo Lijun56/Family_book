@@ -19,7 +19,7 @@ class ARViewController: UIViewController, ARSCNViewDelegate {
     var LoadImage: UIImage!
     var LoadVideoUrl: URL!
 //    var Video
-    var name: String = "harry"
+    var name: String = "stephen"
     @IBOutlet var sceneView: ARSCNView!
     
     override func viewDidLoad() {
